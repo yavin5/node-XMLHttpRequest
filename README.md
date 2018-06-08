@@ -1,3 +1,11 @@
+# WTF #
+
+I forked this from driverdan's version because the open() function is inexplicably broken, apparently on purpose? 
+https://github.com/driverdan/node-XMLHttpRequest/issues/156
+
+this version is driverdan's version without the inexplicable abort() at the top of open(). 
+
+
 # node-XMLHttpRequest #
 
 node-XMLHttpRequest is a wrapper for the built-in http client to emulate the
