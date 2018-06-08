@@ -5,6 +5,7 @@ https://github.com/driverdan/node-XMLHttpRequest/issues/156
 
 this version is driverdan's version without the inexplicable abort() at the top of open(). 
 
+this module provides an interface to XMLHttpRequest inside node.js. For obvious reasons.
 
 # node-XMLHttpRequest #
 
