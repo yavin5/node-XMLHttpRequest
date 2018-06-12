@@ -3,7 +3,12 @@
 I forked this from driverdan's version because the open() function is inexplicably broken, apparently on purpose? 
 https://github.com/driverdan/node-XMLHttpRequest/issues/156
 
-this version is driverdan's version without the inexplicable abort() at the top of open(). 
+this version is driverdan's version with these changes:
+
+* removed the inexplicable call to abort() at the top of open()
+* added support for specifying the socket timeout in milliseconds on object instantiation: 
+
+	let xhr = new XMLHttpRequest({timeout: 300});
 
 this module provides an interface to XMLHttpRequest inside node.js. For obvious reasons.
 
